@@ -1,0 +1,28 @@
+*Controle de estoque CONTROLE_ESTOQUE.csv:
+
+- INSERIR: Cadastrar um produto e salvar com os respectivos dados do produto
+(codigo do produto gerado automaticamente, descrição do produto e quantidade)
+
+- PESQUISAR: Pesquisar o produto no arquivo de ESTOQUE utilizando
+o CÓDIGO DO PRODUTO ou a DESCRIÇÃO. Caso o produto nao exista, "produto nao cadastrado".
+
+Apresentar as opções: EDITAR/REMOVER ou INSERIR/SAIR DA PESQUISA
+
+*VENDAS
+ - Permite que cada produto receba um preço. Esta funcionalidade deve
+ler o arquivo CONTROLE_ESTOQUE.csv para obter os códigos de cada produto
+e associar a cada um deles um preço.
+
+Crie um arquivo chamado
+PRECO_PRODUTO.csv para salvar especificamente o Código do Produto e o
+Preço
+
+-EDITAR PREÇO: Permite alterar o preço do produto. Mas não deve permitir
+apagar um produto por aqui. Somente na opção de Controle
+de Estoque.
+
+- VENDA: Permite efetuar uma venda. Uma venda consiste em criar um Código gerado automaticamente
+associado a venda, um Valor e uma Data, salvando estes dados em um
+arquivo chamado VENDAS.csv.
+
+
